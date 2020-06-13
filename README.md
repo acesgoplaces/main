@@ -15,19 +15,9 @@ This results in a loss of precious time, where those few minutes in finding out 
 1. [Resources](#resources)
 
 ## ACES TWO
+### How it works? (Architecture)
 ACES TWO uses a separate webpage to pull important data from the caller's phone.
 Such important data include Date and Time, current GPS location and direction of where the phone is facing, which helps SCDF to create a proper documentation of the case file onto ACES, rather than having our 995 Dispatchers manually typing out as is the current situation. This frees up our 995 Dispatchers to do more important tasks like assessing the nature of the incident. 
-### How it works? (Architecture)
-The 995 Dispatcher will generate a unique SMS link using <service>, that is tied to the open case file on ACES TWO and be sent to the caller.
-
-
-Once the link is opened, the caller will be prompted to accept permissions for their geolocation data to be sent to <service>, which also updates ACES TWO.
-  
-  
-If directed by the 995 Dispatcher, the "photo/video" button allows the caller to take live photos of the incident from his current location. This photo/video, along with its geolocation data, will be sent to <service>, which also updates ACES TWO to help narrow down the possible incident location.
-  
-
-If directed by the 995 Dispatcher, the "video call" button allows the caller to engage in a video call using <service> with the 995 Dispatcher. This can serve as a live feed for SCDF Ops Centre. 
 
 ### scdf.tech webpage (Live demo/Getting Started)
 *insert pic
@@ -42,15 +32,18 @@ The SMS link that will be sent to callers will bring them to the scdf.tech webpa
 
 ### Future Improvements/ Extensions
 #### Speech-to-Text capabilities
-By tying ACES TWO with speech-to-text capability, additional information provided by the caller (i.e. important descriptions such as what's on fire, etc) can be automatically included into the case file on ACES.
+By tying ACES TWO with speech-to-text capability, additional information provided by the caller (i.e. description of what's on fire
 
-#### DECAMS for Residential Premises
-SCDF receives many residential fire related calls that are False Alarms each year. These are mainly from Members-Of-Public (MOP) who are very concerned because of some loud sounds, foul smell, white smoke in their residential area. 
-For cases where such abnormalies are known to be from another unit, SCDF can actually trigger an SMS link to the premise owner to verify if there is indeed a genuine case of emergency.
-Any non-response after a set time or negative response would then trigger the Standard Operating Procedure of activating SCDF officers to respond. 
-Else, a positive response from the premise owner would avoid the need of having to activate precious emergency resources.
+#### Management of False Alarms
+Most industrial and commercial buildings in Singapore are equipped with Decentralised Alarm Monitoring Systems, which transmits the signal from an activated fire alarm to SCDF, who then activates the relevant appliances to the incident. This improves the speed of response and serves as an early-warning system to prevent incidents from escalating to a more serious level. However, false alarms due to  malfunctions, accidents, and even environmental factors (rainy days) result in precious emergency resources being wasted, as  crews are still required to remain on scene to track down the level and zone where the alarm originated. Through ACES TWO, SCDF Operations Centre can directly contact the building Fire Safety Manager through the sms link to verify through photographic or video evidence of the False Alarm, and allow crews to return to base earlier.
 
-/* False Alarm calls for fire incidents is unattended cooking. And when owners are not present at home, responding SCDF officers would then have to make a judgement call of breaking into the house in the event that it escalates into an actual fire. */
+[Source: https://www.scdf.gov.sg/docs/default-source/scdf-library/fssd-downloads/fsm-briefing-2017---fsm-perspective-on-false-alarms-and-practical-approach-to-fire-alarm-activation.pdf]
 
+This function can be extended to residential premises as well. False Alarms at residential premises are mainly from Members-Of-Public (MOP) who are very concerned because of loud sounds, foul smells, or white smoke in their residential area. However, these may be a result of rotting food (perhaps due to improperly closed fridge doors) or incense smoke. When a call is received from a MOP who is not the premise owner, an SMS link can be sent to the premise owner to verify if there is indeed a genuine case of emergency.
+Any non-response after a short time or negative response would then trigger the Standard Operating Procedure of activating SCDF officers to respond. A positive response from the premise owner, accompanied with photographic or video evidence would confirm the false alarm and avoid the need to activate precious emergency resources.
+
+In cases where it is not a clear false alarm, such as a burning smell without any smoke, responding SCDF officers would have to make a judgement call of breaking into the house in the event that it escalates into an actual fire. However, this may also result in unnecessary damage to property in the case of a false alarm. ACES TWO can be used to quickly contact the premise owner and obtain more information, such as whether there is any food on the stove, greatly improving sense-making in a highly ambiguous situation. 
+
+### Getting Started
 
 ### Resources Used
