@@ -12,8 +12,6 @@ This results in a loss of precious time, where those few minutes in finding out 
 1. [scdf.tech webpage](#scdf.tech)
 1. [Video Demo](#video-demo)
 1. [Future Improvements/ Extensions](#future-improvements)
-1. [Getting Started](#getting-started)
-1. [Live demo](#live-demo)
 1. [Resources](#resources)
 
 ## ACES TWO
@@ -21,8 +19,10 @@ This results in a loss of precious time, where those few minutes in finding out 
 ACES TWO uses a separate webpage to pull important data from the caller's phone.
 Such important data include Date and Time, current GPS location and direction of where the phone is facing, which helps SCDF to create a proper documentation of the case file onto ACES, rather than having our 995 Dispatchers manually typing out as is the current situation. This frees up our 995 Dispatchers to do more important tasks like assessing the nature of the incident. 
 
-### scdf.tech webpage (Live demo)
+### scdf.tech webpage (Live demo/Getting Started)
 *insert pic
+
+
 The SMS link that will be sent to callers will bring them to the scdf.tech webpage. The webpage will first ask the caller to send their current GPS location data and direction of where their phone is facing for to the case file on ACES. In the event, where further information from the caller is needed in assisting our 995 Dispatchers to ascertain the nature of the incident, there are submission links at the bottom to allow callers to take photos and videos to upload onto ACES. In the submission links, the caller will be prompted to aim the incident location at the centre of their camera. This will help ACES TWO to narrow down the possible incident locations from the field-of-view of the caller.
 
 ### Video Demo
