@@ -52,6 +52,5 @@ Else, a positive response from the premise owner would avoid the need of having 
 
 /* False Alarm calls for fire incidents is unattended cooking. And when owners are not present at home, responding SCDF officers would then have to make a judgement call of breaking into the house in the event that it escalates into an actual fire. */
 
-### Getting Started
 
 ### Resources Used
