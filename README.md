@@ -18,10 +18,13 @@ This results in a loss of precious time, where those few minutes in finding out 
 
 ## ACES TWO
 ### How it works? (Architecture)
+ACES TWO uses a separate webpage to pull important data from the caller's phone.
+Such important data include Date and Time, current GPS location and orientation of the phone, which helps SCDF to create a proper timeline of the case file onto ACES, rather than having our 995 Dispatchers manually typing out as is the current situation. This frees up our 995 Dispatchers to do more important tasks like triaging 
 
 ### scdf.tech webpage (Live demo)
 
 ### Video Demo
+[Demo on YouTube](#https://youtube.com)
 
 ### Future Improvements/ Extensions
 - HDB Decams system;
