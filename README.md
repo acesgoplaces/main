@@ -32,7 +32,7 @@ The SMS link that will be sent to callers will bring them to the scdf.tech webpa
 
 ### Future Improvements/ Extensions
 #### Speech-to-Text capabilities
-By tying ACES TWO with speech-to-text capability, additional information provided by the caller (i.e. description of what's on fire
+By tying ACES TWO with speech-to-text capability, additional information provided by the caller (i.e. important descriptions such as what's on fire, etc) can be automatically included into the case file on ACES.
 
 #### DECAMS for Residential Premises
 SCDF receives many residential fire related calls that are False Alarms each year. These are mainly from Members-Of-Public (MOP) who are very concerned because of some loud sounds, foul smell, white smoke in their residential area. 
