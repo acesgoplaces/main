@@ -15,9 +15,19 @@ This results in a loss of precious time, where those few minutes in finding out 
 1. [Resources](#resources)
 
 ## ACES TWO
-### How it works? (Architecture)
 ACES TWO uses a separate webpage to pull important data from the caller's phone.
 Such important data include Date and Time, current GPS location and direction of where the phone is facing, which helps SCDF to create a proper documentation of the case file onto ACES, rather than having our 995 Dispatchers manually typing out as is the current situation. This frees up our 995 Dispatchers to do more important tasks like assessing the nature of the incident. 
+### How it works? (Architecture)
+The 995 Dispatcher will generate a unique SMS link using <service>, that is tied to the open case file on ACES TWO and be sent to the caller.
+
+
+Once the link is opened, the caller will be prompted to accept permissions for their geolocation data to be sent to <service>, which also updates ACES TWO.
+  
+  
+If directed by the 995 Dispatcher, the "photo/video" button allows the caller to take live photos of the incident from his current location. This photo/video, along with its geolocation data, will be sent to <service>, which also updates ACES TWO to help narrow down the possible incident location.
+  
+
+If directed by the 995 Dispatcher, the "video call" button allows the caller to engage in a video call using <service> with the 995 Dispatcher. This can serve as a live feed for SCDF Ops Centre. 
 
 ### scdf.tech webpage (Live demo/Getting Started)
 *insert pic
