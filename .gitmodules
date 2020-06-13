@@ -1,6 +1,8 @@
 [submodule "backend"]
 	path = backend
 	url = git@github.com:acesgoplaces/server.git
+	branch = master
 [submodule "frontend"]
 	path = frontend
 	url = git@github.com:acesgoplaces/frontend.git
+	branch = master
