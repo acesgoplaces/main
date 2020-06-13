@@ -2,7 +2,7 @@
 A group of 3 ex-Home Team NSFs who are passionate in improving the shit that is named ACES.
 
 ### Problem Statement
-Currently, SCDF receives 995 calls from callers who are usually far away from the incident location or are in moving vehicles. 
+Currently, SCDF receives 995 calls from concerned callers who are usually far away from the incident location or are passing by in moving vehicles. 
 This means that SCDF is unable to pinpoint the exact incident location to our ground officers attending to these cases. 
 This results in a loss of precious time, where those few minutes in finding out the exact location of the fire, or the subject threatening to jump might mean life and death. 
 
