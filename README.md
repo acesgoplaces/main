@@ -1,5 +1,5 @@
 # ACES TWO by ACES Go Places
-A group of 3 ex-Home Team NSFs who are passionate in improving ACES.
+A group of 3 ex-Home Team NSFs who are passionate in improving the shit that is named ACES.
 
 ### Problem Statement
 Currently, SCDF receives 995 calls from callers who are usually far away from the incident location or are in moving vehicles. 
