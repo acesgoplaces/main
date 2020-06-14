@@ -1,6 +1,6 @@
 # Position Locator [ACES](https://web.archive.org/web/20200614085318/https://www.rrmediagroup.com/News/NewsDetails/NewsID/5172) (PLACES) by [ACES Go Places](https://en.wikipedia.org/wiki/Aces_Go_Places_(film_series))
 
-Callers often have difficulty providing accurate location information to 995 operators, especially when they are reporting the incident from a distance (e.g. their balcony) or are passing by in a vehicle. Valuable time can be wasted trying to direct responders to the incident site based on the vague information provide.
+Callers often have difficulty providing accurate location information to 995 operators, especially when they are reporting the incident from a distance (e.g. their balcony) or are passing by in a vehicle. Valuable time can be wasted trying to direct responders to the incident site based on the vague information provided.
 
 PLACES is an extension to SCDF's Advanced C3* Emergency System (ACES) that aims to address this problem by allowing callers to quickly and accurately share their location and other information with 995 operators. It sends a SMS link that when opened, automatically transmits the caller's location, the direction he/she is facing, to the 995 operator. The caller can also be directed to share photos, videos, or open a livestream, through that same link.
 
