@@ -12,7 +12,7 @@ PLACES also helps aggregate information from multiple simultaneous callers. It m
   <summary>Who are we?</summary>
 
 
-  We are three Home Team NSmen who are passionate about improving systems and processes through the use of technology. Drawing on our experiences during our full-time NS, reservist and volunteer work, we want to make use of our different skills and knowledge to create a solution for problems faced by SCDF in its daily operations.
+  We are three Home Team NSmen who are passionate about improving systems and processes through the use of technology. Drawing on our experiences during our full-time NS, reservist and volunteer work, we want to make use of our different skills and knowledge to create a solution for problems faced by SCDF in its daily operations. 
   
 </details>
 
