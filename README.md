@@ -1,4 +1,4 @@
-# ACES TWO by ACES Go Places
+# ACES Communication Enhanced System - Two Way Option (ACES TWO) by ACES Go Places
 A group of 3 Home Team NSmen who are passionate about improving community response through technology.
 
 ### Problem Statement
