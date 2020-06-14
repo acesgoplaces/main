@@ -6,7 +6,7 @@ PLACES is an extension to SCDF's Advanced C3* Emergency System (ACES) that aims 
 
 When using PLACES, there is no need for callers to download an app. It also works on both Android and iOS devices. Location sharing may also work on older devices (e.g. Nokias) running Symbian or other operating systems.
 
-PLACES also helps aggregate information from multiple simultaneous callers. It maps callers' locations on a screen, allowing operators to identify the location of the incident from two or more callers even in the absence of landmarks and reference points. It also helps with sense-making. For instance, it can help operators identify when multiple callers are describing the same incident, or if there are two separate incidents or fire points occuring simultaneously. It therefore allows SCDF to use its limited resources more effectively.
+PLACES also helps aggregate information from multiple simultaneous callers. It maps callers' locations on a screen, allowing operators to identify the location of the incident from two or more callers even in the absence of landmarks and reference points. It also helps with sense-making. For instance, it can help operators identify when multiple callers are describing the same incident, or if there are two separate incidents or fire points occurring simultaneously. It therefore allows SCDF to use its limited resources more effectively.
 
 <details>
   <summary>Who are we?</summary>
