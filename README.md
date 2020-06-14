@@ -6,7 +6,7 @@ PLACES is an extension to SCDF's Advanced C3* Emergency System (ACES) that aims 
 
 When using PLACES, there is no need for callers to download an app. It also works on both Android and iOS, which run on approximately 99% of all mobile phones in Singapore.
 
-PLACES also helps aggregate information from multiple simultaneous callers. It maps callers' locations on a screen, allowing operators to identify the location of the incident from two or more callers even in the absence of landmarks and reference points. It also helps with sense-making. For instance, it can help operators identify when multiple callers are describing the same incident, or if there are two separate incidents or fire points occurring simultaneously. It therefore allows SCDF to use its limited resources more effectively.
+PLACES also helps aggregate information from multiple simultaneous callers. It maps callers' locations on a screen, allowing operators to identify the location of the incident from two or more callers even in the absence of landmarks and reference points. It also helps with sense-making. For instance, it can help operators identify when multiple callers are describing the same incident, or if there are two separate incidents or fire points occuring simultaneously. It therefore allows SCDF to use its limited resources more effectively.
 
 <details>
   <summary>Who are we?</summary>
@@ -60,22 +60,27 @@ A live map shows the current location of the caller and a narrow isoceles triang
 
 The caller can also be directed to take a photo, video or livestream of the incident by tapping on buttons at the bottom of the webpage. Seeing a photo can help the operations room with sense-making, and help better triage the incident.
 
+The 995 operator will be able to see all the information on a map:
+
+
+
 ### Our Stack (Architecture)
 
 ![stack](https://media.githubusercontent.com/media/acesgoplaces/main/master/assets/stack.png?token=ABRYR4P7LSNNY6IY6JHAAQ264X3LO)
 
-PLACES uses the [JAMStack](). The frontend is a [Gatsby](https://gatsbyjs.org) static site which makes API calls to a Node.JS Express server. SMSes are sent via a separate SMS microservice. Both the main backend server and the microservice are [dockerised](https://www.docker.com/).
+PLACES uses the [JAMStack](https://jamstack.org/). The frontend is a [Gatsby](https://gatsbyjs.org) static site which makes API calls to a Node.JS Express server. SMSes are sent via a separate SMS microservice. Both the main backend server and the microservice are [dockerised](https://www.docker.com/).
 
 Photos, videos uploaded by users are stored via [IBM Cloud Object Storage](https://www.ibm.com/sg-en/cloud/object-storage).
 
 ### Live Demo
 
-The SMS link that will be sent to callers will bring them to the scdf.tech webpage. The webpage will first ask the caller to send their current GPS location data and direction of where their phone is facing for to the case file on PLACES. In the event, where further information from the caller is needed in assisting our 995 Operators to ascertain the nature of the incident, there are submission links at the bottom to allow callers to take photos and videos to upload into the system. In the submission links, the caller will be prompted to aim the incident location at the centre of their camera. This will help PLACES to narrow down the possible incident locations from the field-of-view of the caller.
+A live demo is running at [scdf.tech](https://scdf.tech).
 
-Try it for yourself here -> [scdf.tech](https://scdf.tech)
+Since setting up a phone line to call is expensive, the demo consists only of the SMS stage onwards. If you key in your mobile phone number, SPACES will send you a SMS containing a SPACES link. The webpage will first ask you send their current GPS location data and direction of where their phone is facing for to the case file on PLACES. In the event, where further information from the caller is needed in assisting our 995 Operators to ascertain the nature of the incident, there are submission links at the bottom to allow callers to take photos and videos to upload into the system. In the submission links, the caller will be prompted to aim the incident location at the centre of their camera. This will help PLACES to narrow down the possible incident locations from the field-of-view of the caller.
 
 ### Video Demo
-[Demo on YouTube](https://youtu.be/r__54K48GlE)
+
+[Demo on YouTube](https://youtube.com)
 
 ### Future Improvements/ Extensions
 
