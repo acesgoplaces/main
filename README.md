@@ -21,13 +21,13 @@ As a result, ACES TWO allows SCDF to quickly identify, pinpoint, and gather info
 ## ACES TWO
 ### How it works? (Architecture)
 ACES TWO uses a separate webpage to pull important data from the caller's phone.
-Such important data include Date and Time, current GPS location and direction of where the phone is facing, which helps SCDF to create a proper documentation of the case file onto ACES, rather than having our 995 Dispatchers manually typing out as is the current situation. This frees up our 995 Dispatchers to do more important tasks like assessing the nature of the incident. 
+Such important data include Date and Time, current GPS location and direction of where the phone is facing, which helps SCDF to create a proper documentation of the case file onto ACES, rather than having our 995 Operators manually typing out as is the current situation. This frees up our 995 Dispatchers to do more important tasks like assessing the nature of the incident. 
 
 ### scdf.tech webpage (Live demo/Getting Started)
 *insert pic
 
 
-The SMS link that will be sent to callers will bring them to the scdf.tech webpage. The webpage will first ask the caller to send their current GPS location data and direction of where their phone is facing for to the case file on ACES. In the event, where further information from the caller is needed in assisting our 995 Dispatchers to ascertain the nature of the incident, there are submission links at the bottom to allow callers to take photos and videos to upload onto ACES. In the submission links, the caller will be prompted to aim the incident location at the centre of their camera. This will help ACES TWO to narrow down the possible incident locations from the field-of-view of the caller.
+The SMS link that will be sent to callers will bring them to the scdf.tech webpage. The webpage will first ask the caller to send their current GPS location data and direction of where their phone is facing for to the case file on ACES. In the event, where further information from the caller is needed in assisting our 995 Operators to ascertain the nature of the incident, there are submission links at the bottom to allow callers to take photos and videos to upload onto ACES. In the submission links, the caller will be prompted to aim the incident location at the centre of their camera. This will help ACES TWO to narrow down the possible incident locations from the field-of-view of the caller.
 
 [scdf.tech](https://scdf.tech)
 
@@ -36,10 +36,10 @@ The SMS link that will be sent to callers will bring them to the scdf.tech webpa
 
 ### Future Improvements/ Extensions
 #### Speech-to-Text capabilities
-By tying ACES TWO with speech-to-text capability, additional information provided by the caller (i.e. description of what's on fire) can be cached and displayed to the 995 Dispatcher. This would ensure that our 995 Dispatchers will be able to understand the caller and have enough capacity to handle multiple tasks all at once.
+By tying ACES TWO with speech-to-text capability, additional information provided by the caller (i.e. description of what's on fire) can be cached and displayed to the 995 Operator. This would ensure that our 995 Operators will be able to understand the caller and have enough capacity to handle multiple tasks all at once. This also allows the most relevant and important information to be displayed to the operator, as callers who are closer to the incident would have a better view of the events unfolding at the incident site. 
 
 #### Automated Information Gathering and Plotting
-
+Instead of having a live operator issue instructions to the caller to click on the SMS link and aim at the incident using the crosshairs, this process can be automated using a virtual assistant. The resulting data can then be automatically plotted on the operator console in a concise manner. This frees up the Operator to concentrate on other tasks, and would increase the capacity and allow more callers and hence more information to be processed. 
 
 #### Management of False Alarms
 Most industrial and commercial buildings in Singapore are equipped with Decentralised Alarm Monitoring Systems, which transmits the signal from an activated fire alarm to SCDF, who then activates the relevant appliances to the incident. This improves the speed of response and serves as an early-warning system to prevent incidents from escalating to a more serious level. However, false alarms due to  malfunctions, accidents, and even environmental factors (rainy days) result in precious emergency resources being wasted, as  crews are still required to remain on scene to track down the level and zone where the alarm originated. Through ACES TWO, SCDF Operations Centre can directly contact the building Fire Safety Manager or other on-duty personnel through the sms link to verify through photographic or video evidence of the False Alarm, and allow crews to return to base earlier.
