@@ -32,7 +32,7 @@ The SMS link that will be sent to callers will bring them to the scdf.tech webpa
 
 ### Future Improvements/ Extensions
 #### Speech-to-Text capabilities
-By tying ACES TWO with speech-to-text capability, additional information provided by the caller (i.e. description of what's on fire
+By tying ACES TWO with speech-to-text capability, additional information provided by the caller (i.e. description of what's on fire) can be cached and displayed to the 995 Dispatcher. This would ensure that our 995 Dispatchers will be able to understand the caller and have enough capacity to handle multiple tasks all at once.
 
 #### Management of False Alarms
 Most industrial and commercial buildings in Singapore are equipped with Decentralised Alarm Monitoring Systems, which transmits the signal from an activated fire alarm to SCDF, who then activates the relevant appliances to the incident. This improves the speed of response and serves as an early-warning system to prevent incidents from escalating to a more serious level. However, false alarms due to  malfunctions, accidents, and even environmental factors (rainy days) result in precious emergency resources being wasted, as  crews are still required to remain on scene to track down the level and zone where the alarm originated. Through ACES TWO, SCDF Operations Centre can directly contact the building Fire Safety Manager or other on-duty personnel through the sms link to verify through photographic or video evidence of the False Alarm, and allow crews to return to base earlier.
