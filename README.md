@@ -29,7 +29,7 @@ Such important data include Date and Time, current GPS location and direction of
 
 The SMS link that will be sent to callers will bring them to the scdf.tech webpage. The webpage will first ask the caller to send their current GPS location data and direction of where their phone is facing for to the case file on ACES. In the event, where further information from the caller is needed in assisting our 995 Operators to ascertain the nature of the incident, there are submission links at the bottom to allow callers to take photos and videos to upload onto ACES. In the submission links, the caller will be prompted to aim the incident location at the centre of their camera. This will help ACES TWO to narrow down the possible incident locations from the field-of-view of the caller.
 
-[scdf.tech](https://scdf.tech)
+Try it for yourself here -> [scdf.tech](https://scdf.tech)
 
 ### Video Demo
 [Demo on YouTube](https://youtube.com)
