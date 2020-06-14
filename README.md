@@ -1,5 +1,5 @@
 # ACES TWO by ACES Go Places
-A group of 3 ex-Home Team NSFs who are passionate about improving ACES with geolocation functions so that ACES can Go Places.
+A group of 3 Home Team NSmen who are passionate about improving community response through technology.
 
 ### Problem Statement
 Problem Statement 4: Preventing the spread
@@ -8,7 +8,7 @@ In the event of a confirmed incident, there are usually multiple callers with in
 
 ACES TWO aims to overcome these challenges by providing a way for callers to communicate to SCDF the location, extent and severity of an incident through their location data, photos, and videos. Through the compass and gyroscope in the phone, the azimuth to the incident can be plotted from their location (longitude, latitude, bearing), allowing SCDF Operations Centre to triangulate the location of the incident from two or more callers even in the absence of landmarks and reference points. The address and relevant details of the affected premises can then be extracted based on the triangulated position. By using an SMS link, it eliminates the need for users to download an additional application during an emergency, and enables anyone with a camera-equipped smartphone to provide accurate and timely information to SCDF. This also allows the Operations Centre to distinguish between multiple callers describing the same incident, or if there are two separate incidents or fire points occuring at the same time, enabling better sense-making and use of limited resources. 
 
-As a result, ACES TWO allows SCDF to quickly identify, pinpoint, and gather information on events from the onset and prevent them from escalating further and causing greater damage to life and property. By allowing anyone in the vicinity and not just those who have downloaded myResponder or SGSecure apps to act as the "eyes on the ground" for emergency responders, community resilience is also improved, as foreigners and migrant workers can also participate in the emergency response process. In a world that is increasingly volatile, uncertain, complex and ambiguous, with multiple challenges ahead, ACES TWO is a solution that leverages technology to tap on the community for improved sense-making and faster response, not if, but when events occur. 
+As a result, ACES TWO allows SCDF to quickly identify, pinpoint, and gather information on events from the onset and prevent them from escalating further and causing greater damage to life and property. By allowing anyone in the vicinity and not just those who have downloaded myResponder or SGSecure apps to act as the first "eyes on the ground" for emergency responders, community resilience is also improved, as tourists, foreigners and migrant workers can also participate in the emergency response process. In a world that is increasingly volatile, uncertain, complex and ambiguous, with multiple challenges ahead, ACES TWO is a solution that leverages technology to tap on the community for improved sense-making and faster response, not if, but when events occur. 
 
 ## Contents
 1. [ACES TWO](#ACES-TWO)
@@ -20,24 +20,14 @@ As a result, ACES TWO allows SCDF to quickly identify, pinpoint, and gather info
 
 ## ACES TWO
 ### How it works? (Architecture)
-ACES TWO uses a separate webpage to pull important data from the caller's phone.
-Such important data include Date and Time, current GPS location and direction of where the phone is facing, which helps SCDF to create a proper documentation of the case file onto ACES, rather than having our 995 Operators manually typing out as is the current situation. This frees up our 995 Dispatchers to do more important tasks like assessing the nature of the incident. 
+When a caller calls 995 but is uncertain of the exact location, a link can be sent to the caller via SMS. This link directs the caller to a separate webpage which pulls important data from the caller's phone. Such important data include Date and Time, current GPS location and direction where the phone is facing. On the webpage, a live map shows the current location of the caller and a narrow isoceles triangle shows the orientation of the phone and the field-of-view. This intuitive set-up, similar to the interface in a navigation application, allows the caller to quickly verify that the location and bearing to the incident site is correct. The caller can also be directed to take a photo, video or livestream of the incident by tapping on buttons at the bottom of the webpage. 
 
 ### scdf.tech webpage (Live demo/Getting Started)
 *insert pic
 
+The SMS link that will be sent to callers will bring them to the scdf.tech webpage. The webpage will first ask the caller to send their current GPS location data and direction of where their phone is facing for to the case file on ACES. In the event, where further information from the caller is needed in assisting our 995 Operators to ascertain the nature of the incident, there are submission links at the bottom to allow callers to take photos and videos to upload into the system. In the submission links, the caller will be prompted to aim the incident location at the centre of their camera. This will help ACES TWO to narrow down the possible incident locations from the field-of-view of the caller.
 
 Try it for yourself here -> [scdf.tech](https://scdf.tech)
-
-
-For the purposes of testing, you will first be required to input your own phone number to receive the SMS. In actual implementation, this step will be done by our 995 Dispatchers.  
-
-
-Callers (you) will then be sent a unique SMS link that is tied to the case file on ACES TWO. The link will brink them to a webpage, which will ask for the caller to grant permissions to allow ACES TWO to pull their current GPS location data and the direction in which their phone is facing.
-
-
-In the event, where further information from the caller is needed in assisting our 995 Operators to ascertain the nature of the incident, there are submission links at the bottom to allow callers to take photos/videos and even livestream videos (under construction) to upload onto ACES TWO. In the submission links, the caller will be prompted to aim the incident location at the centre of their camera. This will help ACES TWO to narrow down the possible incident locations from the field-of-view of the caller.
-
 
 ### Video Demo
 [Demo on YouTube](https://youtube.com)
