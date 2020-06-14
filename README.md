@@ -2,9 +2,13 @@
 A group of 3 ex-Home Team NSFs who are passionate about improving ACES with geolocation functions so that ACES can Go Places.
 
 ### Problem Statement
-Currently, SCDF receives 995 calls from concerned callers who are usually far away from the incident location or are passing by in moving vehicles. 
-This means that SCDF is unable to pinpoint the exact incident location to our ground officers attending to these cases. 
-This results in a loss of precious time, where those few minutes in finding out the exact location of the fire, or the subject threatening to jump might mean life and death. 
+Problem Statement 4: Preventing the spread
+
+In the event of a confirmed incident, there are usually multiple callers with information on the incident. However, this may make pinpointing the exact location difficult, as not all callers have information on the exact address of the affected premise, as they may be far away or passing by in moving vehicles. In certain locations, such as along highways, in parks/forested areas, and even out at sea, there are few or no reference addresses in order to accurately communicate the location of the incident. For events such as collapsed buildings, chemical leaks, large fires, or other large scale events, it is also dangerous for callers to approach the incident site to gather information, and thus they can only observe at a distance. Without accurate location information, ground officers attending to the cases would lose precious time, where those few minutes in finding out the exact location of the fire or a subject threatening to jump might mean the difference between life and death. 
+
+ACES TWO aims to overcome these challenges by providing a way for callers to communicate to SCDF the location, extent and severity of an incident through their location data, photos, and videos. Through the compass and gyroscope in the phone, the azimuth to the incident can be plotted from their location (longitude, latitude, bearing), allowing SCDF Operations Centre to triangulate the location of the incident from two or more callers even in the absence of landmarks and reference points. The address and relevant details of the affected premises can then be extracted based on the triangulated position. By using an SMS link, it eliminates the need for users to download an additional application during an emergency, and enables anyone with a camera-equipped smartphone to provide accurate and timely information to SCDF. This also allows the Operations Centre to distinguish between multiple callers describing the same incident, or if there are two separate incidents occuring at the same time, enabling better sense-making and use of limited resource. 
+
+As a result, ACES TWO allows SCDF to quickly identify, pinpoint, and gather information on events from the onset and prevent them from escalating further. By allowing anyone in the vicinity and not just those who have downloaded myResponder or SGSecure apps to act as the "eyes on the ground" for emergency responders, community resilience is also improved, and gives groups such as foreigners and migrant workers a stake in managing emergencies.
 
 ## Contents
 1. [ACES TWO](#ACES-TWO)
@@ -33,6 +37,9 @@ The SMS link that will be sent to callers will bring them to the scdf.tech webpa
 ### Future Improvements/ Extensions
 #### Speech-to-Text capabilities
 By tying ACES TWO with speech-to-text capability, additional information provided by the caller (i.e. description of what's on fire) can be cached and displayed to the 995 Dispatcher. This would ensure that our 995 Dispatchers will be able to understand the caller and have enough capacity to handle multiple tasks all at once.
+
+#### Automated Information Gathering and Plotting
+
 
 #### Management of False Alarms
 Most industrial and commercial buildings in Singapore are equipped with Decentralised Alarm Monitoring Systems, which transmits the signal from an activated fire alarm to SCDF, who then activates the relevant appliances to the incident. This improves the speed of response and serves as an early-warning system to prevent incidents from escalating to a more serious level. However, false alarms due to  malfunctions, accidents, and even environmental factors (rainy days) result in precious emergency resources being wasted, as  crews are still required to remain on scene to track down the level and zone where the alarm originated. Through ACES TWO, SCDF Operations Centre can directly contact the building Fire Safety Manager or other on-duty personnel through the sms link to verify through photographic or video evidence of the False Alarm, and allow crews to return to base earlier.
