@@ -62,7 +62,9 @@ The caller can also be directed to take a photo, video or livestream of the inci
 
 The 995 operator will be able to see all the information on a map:
 
-
+<img src="https://media.githubusercontent.com/media/acesgoplaces/main/master/assets/ops1.jpg" width="300" />
+<img src="https://media.githubusercontent.com/media/acesgoplaces/main/master/assets/ops2.jpg" width="300" />
+<img src="https://media.githubusercontent.com/media/acesgoplaces/main/master/assets/ops3.jpg" width="300" />
 
 ### Our Stack (Architecture)
 
