@@ -71,19 +71,24 @@ The 995 operator will be able to see all the information on a map:
 
 ![stack](https://media.githubusercontent.com/media/acesgoplaces/main/master/assets/stack.png?token=ABRYR4P7LSNNY6IY6JHAAQ264X3LO)
 
+* [Link to backend](https://github.com/acesgoplaces/server)
+* [Link to frontend](https://github.com/acesgoplaces/frontend)
+
 PLACES uses the [JAMStack](https://jamstack.org/). The frontend is a [Gatsby](https://gatsbyjs.org) static site which makes API calls to a Node.JS Express server. SMSes are sent via a separate SMS microservice. Both the main backend server and the microservice are [dockerised](https://www.docker.com/).
 
 Photos, videos uploaded by users are stored via [IBM Cloud Object Storage](https://www.ibm.com/sg-en/cloud/object-storage).
-
-Since setting up a phone line to call is expensive, the demo consists only of the SMS stage onwards. If you key in your mobile phone number, SPACES will send you a SMS containing a SPACES link. The webpage will first ask you send their current GPS location data and direction that their phone is facing to the case file on PLACES. If further information from the caller is needed in assisting our 995 Operators to ascertain the nature of the incident, the buttons at the bottom allow callers to take photos and videos to upload into the system. When submitting photos, the caller will be prompted to aim the incident location at the centre of their camera. This will help PLACES to narrow down the possible incident locations from the field-of-view of the caller.
 
 ### Live Demo
 
  A live demo is running at [scdf.tech](https://scdf.tech). 
 
+ Since setting up a phone line to call is expensive, the demo consists only of the SMS stage onwards. If you key in your mobile phone number, SPACES will send you a SMS containing a SPACES link. The webpage will first ask you send their current GPS location data and direction that their phone is facing to the case file on PLACES. If further information from the caller is needed in assisting our 995 Operators to ascertain the nature of the incident, the buttons at the bottom allow callers to take photos and videos to upload into the system. When submitting photos, the caller will be prompted to aim the incident location at the centre of their camera. This will help PLACES to narrow down the possible incident locations from the field-of-view of the caller.
+
 ### Video Demo
 
 [![Demo on Youtube](https://img.youtube.com/vi/r__54K48GlE/0.jpg)](https://www.youtube.com/watch?v=r__54K48GlE)
+
+[Demo on Youtube](https://www.youtube.com/watch?v=r__54K48GlE)
 
 ### Future Improvements/ Extensions
 
