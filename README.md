@@ -35,8 +35,29 @@ PLACES
 1. [Future Improvements/ Extensions](#future-improvements)
 1. [Resources](#resources)
 
-### How it works? (Architecture)
-When a caller calls 995 but is uncertain of the exact location, a link can be sent to the caller via SMS. This link directs the caller to a separate webpage which pulls important data from the caller's phone. Such important data include Date and Time, current GPS location and direction where the phone is facing. On the webpage, a live map shows the current location of the caller and a narrow isoceles triangle shows the orientation of the phone and the field-of-view. This intuitive set-up, similar to the interface in a commonly-used navigation application, allows the caller to quickly verify that the location and bearing to the incident site is correct. The caller can also be directed to take a photo, video or livestream of the incident by tapping on buttons at the bottom of the webpage. 
+### How it works
+
+![flow](https://media.githubusercontent.com/media/acesgoplaces/main/master/assets/flow.png?token=ABRYR4PIJCHJJ2IAKCBPZU264X2DS)
+
+When a caller calls 995 but cannot provide an accurate location, the 995 operator can activate PLACES to send a link to the caller via SMS.
+
+![SMS](https://media.githubusercontent.com/media/acesgoplaces/main/master/assets/sms_screenshot.png?token=ABRYR4PIJCHJJ2IAKCBPZU264X2DS)
+
+This link opens a PLACES webpage which pulls important data from the caller's phone, including the caller's current location and the direction they are facing. There is no need to install an app. PLACES works on both Android and iOS devices.
+
+![screenshot of link](https://media.githubusercontent.com/media/acesgoplaces/main/master/assets/link_screenshot.png)
+
+On the webpage, a live map shows the current location of the caller and a narrow isoceles triangle shows the orientation of the phone and the field-of-view. This intuitive set-up, similar to the interface in a commonly-used navigation application, allows the caller to quickly verify that the location and bearing to the incident site is correct.
+
+The caller can also be directed to take a photo, video or livestream of the incident by tapping on buttons at the bottom of the webpage. Seeing a photo can help the operations room with sense-making, and help better triage the incident.
+
+### Our Stack (Architecture)
+
+![stack](https://media.githubusercontent.com/media/acesgoplaces/main/master/assets/stack.png?token=ABRYR4P7LSNNY6IY6JHAAQ264X3LO)
+
+PLACES uses the [JAMStack](). The frontend is a [Gatsby](https://gatsbyjs.org) static site which makes API calls to a Node.JS Express server. SMSes are sent via a separate SMS microservice. Both the main backend server and the microservice are [dockerised](https://www.docker.com/).
+
+Photos, videos uploaded by users are stored via [IBM Cloud Object Storage](https://www.ibm.com/sg-en/cloud/object-storage).
 
 ### Live Demo
 
