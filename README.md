@@ -44,6 +44,4 @@ Any non-response after a short time or negative response would then trigger the 
 
 In cases where it is not a clear false alarm, such as a burning smell without any smoke, responding SCDF officers would have to make a judgement call of breaking into the house in the event that it escalates into an actual fire. However, this may also result in unnecessary damage to property in the case of a false alarm. ACES TWO can be used to quickly contact the premise owner and obtain more information, such as whether there is any food on the stove, greatly improving sense-making in a highly ambiguous situation. 
 
-### Getting Started
-
 ### Resources Used
