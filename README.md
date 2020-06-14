@@ -4,7 +4,7 @@ Callers often have difficulty providing accurate location information to 995 ope
 
 PLACES is an extension to SCDF's Advanced C3* Emergency System (ACES) that aims to address this problem by allowing callers to quickly and accurately share their location and other information with 995 operators. It sends a SMS link that when opened, automatically transmits the caller's location, the direction he/she is facing, to the 995 operator. The caller can also be directed to share photos, videos, or open a livestream, through that same link.
 
-When using PLACES, there is no need for callers to download an app. It also works on both Android and iOS devices. Location sharing may also work on older devices (e.g. Nokias) running Symbian or other operating systems.
+When using PLACES, there is no need for callers to download an app. It also works on both Android and iOS, which run on approximately 99% of all mobile phones in Singapore.
 
 PLACES also helps aggregate information from multiple simultaneous callers. It maps callers' locations on a screen, allowing operators to identify the location of the incident from two or more callers even in the absence of landmarks and reference points. It also helps with sense-making. For instance, it can help operators identify when multiple callers are describing the same incident, or if there are two separate incidents or fire points occuring simultaneously. It therefore allows SCDF to use its limited resources more effectively.
 
@@ -20,24 +20,21 @@ PLACES also helps aggregate information from multiple simultaneous callers. It m
     Problem Statement 4: Preventing the Spread
   </summary>
 
-<<<<<<< HEAD
-
-  When an incident occurs, there are usually multiple simultaneous callers who all have information about. 
-=======
   When an incident occurs, there are usually multiple simultaneous callers who all have information about the incident. 
->>>>>>> c638ac9946e2438bd2ff398f3ceef2fc38199878
 
   If there are no clear landmarks, pinpointing an exact location within a large building, or along a long expressway can be difficult. Callers who simply happen to be in the area often do not know the exact address of the incident area. They might also be far away or passing by in moving vehicles.
   
-  In certain locations, such as along highways, in parks/forested areas, and even out at sea, there are few or no reference addresses, so an operator might have great difficulty accurately identifying the location of the incident.
+  At certain locations, such as along highways, in parks/forested areas, and even out at sea, there are few or no reference addresses, so an operator might have great difficulty accurately identifying the location of the incident.
   
   For events such as collapsed buildings, chemical leaks, large fires, or other large scale events, it is also dangerous for callers to approach the incident site to gather information, and thus they can only observe at a distance.
   
   Without accurate location information, ground officers attending to the cases might be unable to locate the victims, and might have to spend precious minutes searching the general area. Those few minutes can make the difference between life and death.
 
-  PLACES aims to overcome these challenges by providing a way for callers to communicate to SCDF the location, extent and severity of an incident through their location data, photos, and videos. Through the compass and gyroscope in the phone, the azimuth to the incident can be plotted from their location (longitude, latitude, bearing), allowing SCDF Operations Centre to triangulate the location of the incident from two or more callers even in the absence of landmarks and reference points. The address and relevant details of the affected premises can then be extracted based on the triangulated position. By using an SMS link, it eliminates the need for users to download an additional application during an emergency, and enables anyone with a camera-equipped smartphone to provide accurate and timely information to SCDF. This also allows the Operations Centre to distinguish between multiple callers describing the same incident, or if there are two separate incidents or fire points occuring at the same time, enabling better sense-making and use of limited resources.
+  PLACES aims to overcome these challenges by providing a way for callers to communicate to SCDF the location, extent and severity of an incident through their location data, photos, and videos. Through the compass and gyroscope in the phone, the azimuth to the incident can be plotted from their location (longitude, latitude, bearing), allowing SCDF Operations Centre to triangulate the location of the incident from two or more callers even in the absence of landmarks and reference points. The address and relevant details of the affected premises can then be extracted based on the triangulated position. By using an SMS link, it eliminates the need for users to download an additional application during an emergency, and enables anyone with a camera-equipped smartphone to provide accurate and timely information to SCDF. Location sharing may also work on older devices (e.g. Nokias) running Symbian or other operating systems.
+  
+  This also allows the Operations Centre to distinguish between multiple callers describing the same incident, or if there are two separate incidents or fire points occuring at the same time, enabling better sense-making and use of limited resources.
 
-  As a result, PLACES allows SCDF to quickly identify, pinpoint, and gather information on events from the onset and prevent them from escalating further and causing greater damage to life and property. By allowing anyone in the vicinity and not just those who have downloaded myResponder or SGSecure apps to act as the first "eyes on the ground" for emergency responders, community resilience is also improved, as tourists, foreigners and migrant workers can also participate in the emergency response process. In a world that is increasingly volatile, uncertain, complex and ambiguous, with multiple challenges ahead, PLACES is a solution that leverages technology to tap on the community for improved sense-making and faster response, not if, but when events occur.
+  As a result, PLACES allows SCDF to quickly identify, pinpoint, and gather information on events from the onset and prevent them from escalating further and causing greater damage to life and property. By allowing anyone in the vicinity and not just those who have downloaded the myResponder or SGSecure apps to act as the first "eyes on the ground" for emergency responders, community resilience is also improved, as tourists, foreigners and migrant workers can also participate in the emergency response process. In a world that is increasingly volatile, uncertain, complex and ambiguous, with multiple challenges ahead, PLACES is a solution that leverages technology to tap on the community for improved sense-making and faster response when events occur.
 </details>
 
 ## Contents
