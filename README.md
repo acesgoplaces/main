@@ -20,7 +20,7 @@ As a result, ACES TWO allows SCDF to quickly identify, pinpoint, and gather info
 
 ## ACES TWO
 ### How it works? (Architecture)
-When a caller calls 995 but is uncertain of the exact location, a link can be sent to the caller via SMS. This link directs the caller to a separate webpage which pulls important data from the caller's phone. Such important data include Date and Time, current GPS location and direction where the phone is facing. On the webpage, a live map shows the current location of the caller and a narrow isoceles triangle shows the orientation of the phone and the field-of-view. This intuitive set-up, similar to the interface in a navigation application, allows the caller to quickly verify that the location and bearing to the incident site is correct. The caller can also be directed to take a photo, video or livestream of the incident by tapping on buttons at the bottom of the webpage. 
+When a caller calls 995 but is uncertain of the exact location, a link can be sent to the caller via SMS. This link directs the caller to a separate webpage which pulls important data from the caller's phone. Such important data include Date and Time, current GPS location and direction where the phone is facing. On the webpage, a live map shows the current location of the caller and a narrow isoceles triangle shows the orientation of the phone and the field-of-view. This intuitive set-up, similar to the interface in a commonly-used navigation application, allows the caller to quickly verify that the location and bearing to the incident site is correct. The caller can also be directed to take a photo, video or livestream of the incident by tapping on buttons at the bottom of the webpage. 
 
 ### scdf.tech webpage (Live demo/Getting Started)
 *insert pic
