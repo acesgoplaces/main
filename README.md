@@ -1,29 +1,44 @@
-# Position Locator ACES (PLACES) by ACES Goes Places
-A group of 3 Home Team NSmen who are passionate about improving community response through technology.
+# Position Locator [ACES](https://web.archive.org/web/20200614085318/https://www.rrmediagroup.com/News/NewsDetails/NewsID/5172) (PLACES) by [ACES Go Places](https://en.wikipedia.org/wiki/Aces_Go_Places_(film_series))
 
-### Problem Statement
-Problem Statement 4: Preventing the spread
+PLACES 
 
-In the event of a confirmed incident, there are usually multiple callers with information on the incident. However, this may make pinpointing the exact location difficult, as not all callers have information on the exact address of the affected premise, as they may be far away or passing by in moving vehicles. In certain locations, such as along highways, in parks/forested areas, and even out at sea, there are few or no reference addresses in order to accurately communicate the location of the incident. For events such as collapsed buildings, chemical leaks, large fires, or other large scale events, it is also dangerous for callers to approach the incident site to gather information, and thus they can only observe at a distance. Without accurate location information, ground officers attending to the cases would lose precious time, where those few minutes in finding out the exact location of the fire or a subject threatening to jump might mean the difference between life and death. 
+<details>
+  <summary>Who are we?</summary>
 
-PLACES aims to overcome these challenges by providing a way for callers to communicate to SCDF the location, extent and severity of an incident through their location data, photos, and videos. Through the compass and gyroscope in the phone, the azimuth to the incident can be plotted from their location (longitude, latitude, bearing), allowing SCDF Operations Centre to triangulate the location of the incident from two or more callers even in the absence of landmarks and reference points. The address and relevant details of the affected premises can then be extracted based on the triangulated position. By using an SMS link, it eliminates the need for users to download an additional application during an emergency, and enables anyone with a camera-equipped smartphone to provide accurate and timely information to SCDF. This also allows the Operations Centre to distinguish between multiple callers describing the same incident, or if there are two separate incidents or fire points occuring at the same time, enabling better sense-making and use of limited resources. 
+  We are three Home Team NSmen who are passionate about improving systems and processes through the use of technology.
+</details>
 
-As a result, PLACES allows SCDF to quickly identify, pinpoint, and gather information on events from the onset and prevent them from escalating further and causing greater damage to life and property. By allowing anyone in the vicinity and not just those who have downloaded myResponder or SGSecure apps to act as the first "eyes on the ground" for emergency responders, community resilience is also improved, as tourists, foreigners and migrant workers can also participate in the emergency response process. In a world that is increasingly volatile, uncertain, complex and ambiguous, with multiple challenges ahead, PLACES is a solution that leverages technology to tap on the community for improved sense-making and faster response, not if, but when events occur. 
+<details>
+  <summary>
+    Problem Statement 4: Preventing the Spread
+  </summary>
+
+  When an incident occurs, there are usually multiple simultaneous callers who all have information about. 
+
+  If there are no clear landmarks, pinpointing an exact location within a large building, or along a long expressway can be difficult. Callers who simply happen to be in the area often do not know the exact address of the incident area. They might also be far away or passing by in moving vehicles.
+  
+  In certain locations, such as along highways, in parks/forested areas, and even out at sea, there are few or no reference addresses, so an operator might have great difficulty accurately identifying the location of the incident.
+  
+  For events such as collapsed buildings, chemical leaks, large fires, or other large scale events, it is also dangerous for callers to approach the incident site to gather information, and thus they can only observe at a distance.
+  
+  Without accurate location information, ground officers attending to the cases might be unable to locate the victims, and might have to spend precious minutes searching the general area. Those few minutes can make the difference between life and death.
+
+  PLACES aims to overcome these challenges by providing a way for callers to communicate to SCDF the location, extent and severity of an incident through their location data, photos, and videos. Through the compass and gyroscope in the phone, the azimuth to the incident can be plotted from their location (longitude, latitude, bearing), allowing SCDF Operations Centre to triangulate the location of the incident from two or more callers even in the absence of landmarks and reference points. The address and relevant details of the affected premises can then be extracted based on the triangulated position. By using an SMS link, it eliminates the need for users to download an additional application during an emergency, and enables anyone with a camera-equipped smartphone to provide accurate and timely information to SCDF. This also allows the Operations Centre to distinguish between multiple callers describing the same incident, or if there are two separate incidents or fire points occuring at the same time, enabling better sense-making and use of limited resources. 
+
+  As a result, PLACES allows SCDF to quickly identify, pinpoint, and gather information on events from the onset and prevent them from escalating further and causing greater damage to life and property. By allowing anyone in the vicinity and not just those who have downloaded myResponder or SGSecure apps to act as the first "eyes on the ground" for emergency responders, community resilience is also improved, as tourists, foreigners and migrant workers can also participate in the emergency response process. In a world that is increasingly volatile, uncertain, complex and ambiguous, with multiple challenges ahead, PLACES is a solution that leverages technology to tap on the community for improved sense-making and faster response, not if, but when events occur.
+</details>
 
 ## Contents
-1. [PLACES](#PLACES)
-1. [How it works?](#How-it-works?)
-1. [scdf.tech webpage](#scdf.tech)
+1. [How it works](#How-it-works?)
+1. [Live Demo](#scdf.tech)
 1. [Video Demo](#video-demo)
 1. [Future Improvements/ Extensions](#future-improvements)
 1. [Resources](#resources)
 
-## PLACES
 ### How it works? (Architecture)
 When a caller calls 995 but is uncertain of the exact location, a link can be sent to the caller via SMS. This link directs the caller to a separate webpage which pulls important data from the caller's phone. Such important data include Date and Time, current GPS location and direction where the phone is facing. On the webpage, a live map shows the current location of the caller and a narrow isoceles triangle shows the orientation of the phone and the field-of-view. This intuitive set-up, similar to the interface in a commonly-used navigation application, allows the caller to quickly verify that the location and bearing to the incident site is correct. The caller can also be directed to take a photo, video or livestream of the incident by tapping on buttons at the bottom of the webpage. 
 
-### scdf.tech webpage (Live demo/Getting Started)
-*insert pic
+### Live Demo
 
 The SMS link that will be sent to callers will bring them to the scdf.tech webpage. The webpage will first ask the caller to send their current GPS location data and direction of where their phone is facing for to the case file on PLACES. In the event, where further information from the caller is needed in assisting our 995 Operators to ascertain the nature of the incident, there are submission links at the bottom to allow callers to take photos and videos to upload into the system. In the submission links, the caller will be prompted to aim the incident location at the centre of their camera. This will help PLACES to narrow down the possible incident locations from the field-of-view of the caller.
 
