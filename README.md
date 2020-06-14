@@ -78,7 +78,7 @@ The SMS link that will be sent to callers will bring them to the scdf.tech webpa
 Try it for yourself here -> [scdf.tech](https://scdf.tech)
 
 ### Video Demo
-[Demo on YouTube](https://youtube.com)
+[Demo on YouTube](https://youtu.be/r__54K48GlE)
 
 ### Future Improvements/ Extensions
 
