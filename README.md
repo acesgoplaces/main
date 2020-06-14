@@ -84,7 +84,7 @@ By adding speech-to-text capability to PLACES (perhaps by integrating [EVA](http
 
 #### Automated Information Gathering and Plotting
 
-A robo calling system can guide callers through the process of clicking on the SMS link and aiming at the incident using the crosshairs. The resulting data can then be automatically plotted on the operator console in a concise manner.
+A robo-calling system can guide callers through the process of clicking on the SMS link and aiming at the incident using the crosshairs. The resulting data can then be automatically plotted on the operator console in a concise manner.
 
 This frees up the Operator to concentrate on other tasks, and would increase the capacity and allow more callers and hence more information to be processed.
 
@@ -95,6 +95,7 @@ Most industrial and commercial buildings in Singapore are equipped with Decentra
 [Source: https://www.scdf.gov.sg/docs/default-source/scdf-library/fssd-downloads/fsm-briefing-2017---fsm-perspective-on-false-alarms-and-practical-approach-to-fire-alarm-activation.pdf]
 
 This function can be extended to residential premises as well. False Alarms at residential premises are mainly from Members-Of-Public (MOP) who are very concerned because of loud sounds, foul smells, or white smoke in their residential area. However, these may be a result of rotting food (perhaps due to improperly closed fridge doors) or incense smoke. When a call is received from a MOP who is not the premise owner, an SMS link can be sent to the premise owner to verify if there is indeed a genuine case of emergency.
+
 Any non-response after a short time or negative response would then trigger the Standard Operating Procedure of activating SCDF officers to respond. A positive response from the premise owner, accompanied with photographic or video evidence would confirm the false alarm and avoid the need to activate precious emergency resources.
 
 In cases where it is not a clear false alarm, such as a burning smell without any smoke, responding SCDF officers would have to make a judgement call of breaking into the house in the event that it escalates into an actual fire. However, this may also result in unnecessary damage to property in the case of a false alarm. PLACES can be used to quickly contact the premise owner and obtain more information, such as whether there is any food on the stove, greatly improving sense-making in a highly ambiguous situation. 
