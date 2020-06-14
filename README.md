@@ -13,7 +13,7 @@ PLACES
     Problem Statement 4: Preventing the Spread
   </summary>
 
-  When an incident occurs, there are usually multiple simultaneous callers who all have information about. 
+  When an incident occurs, there are usually multiple simultaneous callers who all have information about the incident. 
 
   If there are no clear landmarks, pinpointing an exact location within a large building, or along a long expressway can be difficult. Callers who simply happen to be in the area often do not know the exact address of the incident area. They might also be far away or passing by in moving vehicles.
   
