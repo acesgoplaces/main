@@ -1,12 +1,12 @@
 # Position Locator [ACES](https://web.archive.org/web/20200614085318/https://www.rrmediagroup.com/News/NewsDetails/NewsID/5172) (PLACES) by [ACES Go Places](https://en.wikipedia.org/wiki/Aces_Go_Places_(film_series))
 
-Callers often have difficulty providing accurate location information to 995 operators, especially when they are reporting the incident from a distance (e.g. their balcony) or are passing by in a vehicle. Valuable time can be wasted trying to direct responders to the incident site based on the vague information provide.
+Callers often have difficulty providing accurate location information to 995 operators, especially when they are reporting the incident from a distance (e.g. their balcony) or are passing by in a vehicle. Valuable time can be wasted trying to direct responders to the incident site based on the vague information provided.
 
 PLACES is an extension to SCDF's Advanced C3* Emergency System (ACES) that aims to address this problem by allowing callers to quickly and accurately share their location and other information with 995 operators. It sends a SMS link that when opened, automatically transmits the caller's location, the direction he/she is facing, to the 995 operator. The caller can also be directed to share photos, videos, or open a livestream, through that same link.
 
 When using PLACES, there is no need for callers to download an app. It also works on both Android and iOS, which run on approximately 99% of all mobile phones in Singapore.
 
-PLACES also helps aggregate information from multiple simultaneous callers. It maps callers' locations on a screen, allowing operators to identify the location of the incident from two or more callers even in the absence of landmarks and reference points. It also helps with sense-making. For instance, it can help operators identify when multiple callers are describing the same incident, or if there are two separate incidents or fire points occuring simultaneously. It therefore allows SCDF to use its limited resources more effectively.
+PLACES also helps aggregate information from multiple simultaneous callers. It maps callers' locations on a screen, allowing operators to identify the location of the incident from two or more callers even in the absence of landmarks and reference points. It also helps with sense-making. For instance, it can help operators identify when multiple callers are describing the same incident, or if there are two separate incidents or fire points occurring simultaneously. It therefore allows SCDF to use its limited resources more effectively.
 
 <details>
   <summary>Who are we?</summary>
@@ -75,7 +75,7 @@ The SMS link that will be sent to callers will bring them to the scdf.tech webpa
 Try it for yourself here -> [scdf.tech](https://scdf.tech)
 
 ### Video Demo
-[Demo on YouTube](https://youtube.com)
+[Demo on YouTube](https://youtu.be/r__54K48GlE)
 
 ### Future Improvements/ Extensions
 
